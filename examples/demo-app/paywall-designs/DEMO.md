@@ -14,3 +14,5 @@ En un proyecto real, esos datos los da el usuario y nunca se inventan.
 | 6. Entrega | `output/contact-sheet.png`, `output/contact-sheet.pdf`, `pending.md` |
 
 Pendientes que se dejaron a propósito para mostrar el comportamiento: no hay prueba social real (aparece un marcador visible en `12-paywall-benefits`) y faltan las URLs legales.
+
+Versión en inglés: `../paywall-designs-en/` (mismo proyecto y pantallas; solo cambian `locale` y los textos de `config.json`).

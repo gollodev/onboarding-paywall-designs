@@ -5,5 +5,5 @@ __pycache__/
 dist/
 .ruff_cache/
 # Generated intermediates (contain absolute local paths); regenerate with build_screens.py
-examples/*/paywall-designs/output/html/
-examples/*/paywall-designs/output/manifest.json
+examples/*/paywall-designs*/output/html/
+examples/*/paywall-designs*/output/manifest.json

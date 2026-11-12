@@ -1,0 +1,338 @@
+{
+  "app": {
+    "name": "Brotia",
+    "logo": "../assets/logo.svg",
+    "tagline": "Healthy plants, no guesswork",
+    "premium_name": "Brotia Pro"
+  },
+  "locale": "en",
+  "currency": "USD",
+  "devices": [
+    "iphone",
+    "android"
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "frame": {
+    "enabled": false,
+    "background": "#EEF4EF"
+  },
+  "show_placeholders": true,
+  "brand": {
+    "font_heading": "Nunito",
+    "font_body": "Nunito",
+    "radius": 20,
+    "colors": {
+      "light": {
+        "primary": "#2F9E44",
+        "accent": "#F59F00",
+        "bg": "#FFFFFF",
+        "surface": "#F3F7F2",
+        "text": "#14201A",
+        "muted": "#5C6B62",
+        "border": "#DDE7DF"
+      },
+      "dark": {
+        "primary": "#51CF66",
+        "accent": "#FFC34D",
+        "bg": "#0E1511",
+        "surface": "#18221C",
+        "text": "#EEF5F0",
+        "muted": "#9DB0A4",
+        "border": "#2A3A30"
+      }
+    }
+  },
+  "legal": {
+    "terms_url": null,
+    "privacy_url": null
+  },
+  "trial": {
+    "days": 7,
+    "reminder_days_before": 2,
+    "reminder_confirmed": true
+  },
+  "plans": [
+    {
+      "id": "annual",
+      "period": "year",
+      "price": 29.99,
+      "trial": true,
+      "product_id": "brotia.pro.annual"
+    },
+    {
+      "id": "monthly",
+      "period": "month",
+      "price": 4.99,
+      "trial": false,
+      "product_id": "brotia.pro.monthly"
+    }
+  ],
+  "highlight_plan": "annual",
+  "social_proof": {
+    "rating": null,
+    "rating_count": null,
+    "users": null,
+    "testimonials": [],
+    "press": []
+  },
+  "urgency": {
+    "real": false
+  },
+  "answers": {
+    "goal": "keep your plants alive",
+    "selected_option": "Stop them from dying"
+  },
+  "texts": {},
+  "screens": [
+    {
+      "id": "01-welcome",
+      "template": "onboarding/welcome",
+      "data": {
+        "headline": "Healthy plants, no guesswork",
+        "subhead": "Identify every plant with a photo and get a reminder when it needs water.",
+        "cta": "Get started",
+        "secondary": "I already have an account"
+      }
+    },
+    {
+      "id": "02-benefit",
+      "template": "onboarding/benefit",
+      "data": {
+        "step": 1,
+        "total": 4,
+        "icon": "camera",
+        "eyebrow": "Identify in seconds",
+        "headline": "One photo tells you what plant you have",
+        "subhead": "Brotia tells you how much light and water each one needs.",
+        "bullets": [
+          "A watering schedule made for each plant",
+          "Light, water and temperature guides",
+          "Reminders when it is time to water"
+        ],
+        "cta": "Continue"
+      }
+    },
+    {
+      "id": "03-personalization",
+      "template": "onboarding/personalization",
+      "data": {
+        "step": 2,
+        "total": 4,
+        "headline": "What do you want for your plants?",
+        "subhead": "We'll tailor your care plan to your answer.",
+        "options": [
+          {
+            "icon": "leaf",
+            "label": "Stop them from dying",
+            "selected": true
+          },
+          {
+            "icon": "timer",
+            "label": "Remember to water them"
+          },
+          {
+            "icon": "camera",
+            "label": "Know which plants I have"
+          },
+          {
+            "icon": "chart-line",
+            "label": "Watch them grow"
+          }
+        ],
+        "cta": "Continue"
+      }
+    },
+    {
+      "id": "04-permissions",
+      "template": "onboarding/permissions",
+      "data": {
+        "step": 3,
+        "total": 4,
+        "icon": "bell",
+        "headline": "We'll remind you when it's time to water",
+        "reason": "So you never miss a watering. We only notify you to take care of your plants.",
+        "preview_title": "Time to water your Monstera",
+        "preview_text": "Water it today to keep it healthy.",
+        "preview_time": "now",
+        "cta": "Turn on reminders",
+        "secondary": "Not now"
+      }
+    },
+    {
+      "id": "05-bridge",
+      "template": "onboarding/bridge",
+      "data": {
+        "step": 4,
+        "total": 4,
+        "eyebrow": "Your plan is ready",
+        "headline": "Your plan to {{answers.goal}}",
+        "subhead": "Based on what you told us.",
+        "card_title": "What's included",
+        "items": [
+          {
+            "icon": "bell",
+            "title": "Watering reminders for each plant",
+            "text": "Free, up to 3 plants"
+          },
+          {
+            "icon": "leaf",
+            "title": "Unlimited plants",
+            "text": "With Brotia Pro"
+          },
+          {
+            "icon": "shield-check",
+            "title": "Photo pest diagnosis",
+            "text": "With Brotia Pro"
+          }
+        ],
+        "cta": "See my plan"
+      }
+    },
+    {
+      "id": "10-paywall-trial",
+      "template": "paywall/trial-timeline",
+      "data": {
+        "eyebrow": "Brotia Pro",
+        "headline": "Keep all your plants alive",
+        "subhead": "Try Pro for free. Here is how it works:"
+      },
+      "variants": [
+        {
+          "id": "B",
+          "hypothesis": "Echoing the goal chosen in onboarding increases trial starts",
+          "metric": "paywall → trial start",
+          "set": {
+            "data.headline": "Your plan to {{answers.goal}}"
+          }
+        }
+      ]
+    },
+    {
+      "id": "11-paywall-plans",
+      "template": "paywall/side-by-side",
+      "data": {
+        "eyebrow": "Brotia Pro",
+        "headline": "Care for all your plants, not just 3",
+        "benefits": [
+          {
+            "icon": "leaf",
+            "title": "Unlimited plants"
+          },
+          {
+            "icon": "shield-check",
+            "title": "Photo pest diagnosis"
+          },
+          {
+            "icon": "book-open",
+            "title": "Growth journal with photos"
+          }
+        ]
+      },
+      "variants": [
+        {
+          "id": "B",
+          "hypothesis": "Highlighting monthly lowers price friction and raises conversion, possibly lowering revenue per user",
+          "metric": "paywall conversion and 30-day revenue per user",
+          "set": {
+            "highlight_plan": "monthly"
+          }
+        }
+      ]
+    },
+    {
+      "id": "12-paywall-benefits",
+      "template": "paywall/benefits-social",
+      "data": {
+        "eyebrow": "Brotia Pro",
+        "headline": "Everything your plants need",
+        "benefits": [
+          {
+            "title": "Unlimited plants",
+            "text": "Add all of them, not just 3"
+          },
+          {
+            "title": "Photo pest diagnosis",
+            "text": "Find out what's wrong and how to treat it"
+          },
+          {
+            "title": "Growth journal",
+            "text": "Save photos and watch them grow"
+          },
+          {
+            "title": "Reminders for all",
+            "text": "Each plant with its own schedule"
+          }
+        ]
+      },
+      "variants": [
+        {
+          "id": "B",
+          "hypothesis": "Leading with diagnosis (highest-anxiety benefit) converts better than leading with unlimited plants",
+          "metric": "paywall → trial start",
+          "set": {
+            "data.benefits": [
+              {
+                "title": "Photo pest diagnosis",
+                "text": "Find out what's wrong and how to treat it"
+              },
+              {
+                "title": "Unlimited plants",
+                "text": "Add all of them, not just 3"
+              },
+              {
+                "title": "Growth journal",
+                "text": "Save photos and watch them grow"
+              },
+              {
+                "title": "Reminders for all",
+                "text": "Each plant with its own schedule"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "13-paywall-locked",
+      "template": "paywall/single-plan",
+      "data": {
+        "icon": "shield-check",
+        "eyebrow": "Brotia Pro feature",
+        "headline": "Find out what's wrong with your plant",
+        "subhead": "Take a photo and Brotia detects pests and diseases.",
+        "benefits": [
+          {
+            "title": "Photo diagnosis",
+            "text": "pests and diseases"
+          },
+          {
+            "title": "Unlimited plants",
+            "text": "not just 3"
+          },
+          {
+            "title": "Growth journal",
+            "text": "with photos"
+          }
+        ]
+      },
+      "variants": [
+        {
+          "id": "B",
+          "hypothesis": "With high intent (locked feature), monthly without trial converts better to direct purchase",
+          "metric": "direct purchase conversion and refunds",
+          "set": {
+            "highlight_plan": "monthly"
+          }
+        }
+      ]
+    }
+  ],
+  "pending_decisions": [
+    "Confirm $29.99/year and $4.99/month (USD) are the final prices on the App Store and Google Play.",
+    "Confirm the 7-day trial is set up on both stores for the annual plan.",
+    "Choose which paywall goes at the end of onboarding (recommended: 10-paywall-trial) and which one on tapping Diagnose (13-paywall-locked)."
+  ]
+}
