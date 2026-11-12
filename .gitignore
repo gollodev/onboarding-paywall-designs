@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+dist/
+.ruff_cache/
+# Generated intermediates (contain absolute local paths); regenerate with build_screens.py
+examples/*/paywall-designs/output/html/
+examples/*/paywall-designs/output/manifest.json

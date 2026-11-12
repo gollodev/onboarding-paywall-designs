@@ -14,7 +14,7 @@ Default (run from the canonical folder's parent repo):
   sync_skill.py --validate           # only validate the SKILL.md frontmatter
 
 Edit ONLY the canonical folder. Copies are overwritten (files not in the canonical folder are deleted).
-Excluded from copies/ZIP: caches, .DS_Store, examples/*/output/html and individual example PNGs
+Excluded from copies/ZIP: .git, caches, .DS_Store, examples/*/output/html and individual example PNGs
 (the example contact sheet is kept).
 """
 from __future__ import annotations
@@ -32,7 +32,7 @@ from pathlib import Path
 
 SKILL_DIR = Path(__file__).resolve().parent.parent
 NAME = SKILL_DIR.name
-EXCLUDE = ["__pycache__", "*.pyc", ".DS_Store", ".venv", "dist", "examples/*/output/html",
+EXCLUDE = [".git", ".ruff_cache", ".pytest_cache", "__pycache__", "*.pyc", ".DS_Store", ".venv", "dist", "examples/*/output/html",
            "examples/*/output/iphone", "examples/*/output/android", "examples/*/output/*/*",
            "examples/*/output/manifest.json", "examples/*/output/quality-report.json", "node_modules"]
 ALLOWED_KEYS = {"name", "description", "license", "compatibility", "metadata", "allowed-tools"}
