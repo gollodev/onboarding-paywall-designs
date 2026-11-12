@@ -1,0 +1,594 @@
+{
+  "summary": {
+    "pages": 52,
+    "failed_pages": 0,
+    "fail_issues": 0,
+    "warn_issues": 8
+  },
+  "results": [
+    {
+      "name": "01-welcome",
+      "device": "iphone",
+      "theme": "light",
+      "variant": "A",
+      "template": "onboarding/welcome",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "01-welcome",
+      "device": "iphone",
+      "theme": "dark",
+      "variant": "A",
+      "template": "onboarding/welcome",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "02-benefit",
+      "device": "iphone",
+      "theme": "light",
+      "variant": "A",
+      "template": "onboarding/benefit",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "02-benefit",
+      "device": "iphone",
+      "theme": "dark",
+      "variant": "A",
+      "template": "onboarding/benefit",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "03-personalization",
+      "device": "iphone",
+      "theme": "light",
+      "variant": "A",
+      "template": "onboarding/personalization",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "03-personalization",
+      "device": "iphone",
+      "theme": "dark",
+      "variant": "A",
+      "template": "onboarding/personalization",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "04-permissions",
+      "device": "iphone",
+      "theme": "light",
+      "variant": "A",
+      "template": "onboarding/permissions",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "04-permissions",
+      "device": "iphone",
+      "theme": "dark",
+      "variant": "A",
+      "template": "onboarding/permissions",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "05-bridge",
+      "device": "iphone",
+      "theme": "light",
+      "variant": "A",
+      "template": "onboarding/bridge",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "05-bridge",
+      "device": "iphone",
+      "theme": "dark",
+      "variant": "A",
+      "template": "onboarding/bridge",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "10-paywall-trial",
+      "device": "iphone",
+      "theme": "light",
+      "variant": "A",
+      "template": "paywall/trial-timeline",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "10-paywall-trial",
+      "device": "iphone",
+      "theme": "dark",
+      "variant": "A",
+      "template": "paywall/trial-timeline",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "10-paywall-trial--B",
+      "device": "iphone",
+      "theme": "light",
+      "variant": "B",
+      "template": "paywall/trial-timeline",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "10-paywall-trial--B",
+      "device": "iphone",
+      "theme": "dark",
+      "variant": "B",
+      "template": "paywall/trial-timeline",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "11-paywall-plans",
+      "device": "iphone",
+      "theme": "light",
+      "variant": "A",
+      "template": "paywall/side-by-side",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "11-paywall-plans",
+      "device": "iphone",
+      "theme": "dark",
+      "variant": "A",
+      "template": "paywall/side-by-side",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "11-paywall-plans--B",
+      "device": "iphone",
+      "theme": "light",
+      "variant": "B",
+      "template": "paywall/side-by-side",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "11-paywall-plans--B",
+      "device": "iphone",
+      "theme": "dark",
+      "variant": "B",
+      "template": "paywall/side-by-side",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "12-paywall-benefits",
+      "device": "iphone",
+      "theme": "light",
+      "variant": "A",
+      "template": "paywall/benefits-social",
+      "issues": [
+        {
+          "check": "placeholders",
+          "severity": "warn",
+          "message": "Placeholder block visible: social (needs real data)",
+          "selector": "div.ph",
+          "text": "PRUEBA SOCIAL REAL PENDIENTE\nValoración, nº de usuarios o testimonios reales"
+        }
+      ],
+      "density": "0.88",
+      "status": "warn"
+    },
+    {
+      "name": "12-paywall-benefits",
+      "device": "iphone",
+      "theme": "dark",
+      "variant": "A",
+      "template": "paywall/benefits-social",
+      "issues": [
+        {
+          "check": "placeholders",
+          "severity": "warn",
+          "message": "Placeholder block visible: social (needs real data)",
+          "selector": "div.ph",
+          "text": "PRUEBA SOCIAL REAL PENDIENTE\nValoración, nº de usuarios o testimonios reales"
+        }
+      ],
+      "density": "0.88",
+      "status": "warn"
+    },
+    {
+      "name": "12-paywall-benefits--B",
+      "device": "iphone",
+      "theme": "light",
+      "variant": "B",
+      "template": "paywall/benefits-social",
+      "issues": [
+        {
+          "check": "placeholders",
+          "severity": "warn",
+          "message": "Placeholder block visible: social (needs real data)",
+          "selector": "div.ph",
+          "text": "PRUEBA SOCIAL REAL PENDIENTE\nValoración, nº de usuarios o testimonios reales"
+        }
+      ],
+      "density": "0.88",
+      "status": "warn"
+    },
+    {
+      "name": "12-paywall-benefits--B",
+      "device": "iphone",
+      "theme": "dark",
+      "variant": "B",
+      "template": "paywall/benefits-social",
+      "issues": [
+        {
+          "check": "placeholders",
+          "severity": "warn",
+          "message": "Placeholder block visible: social (needs real data)",
+          "selector": "div.ph",
+          "text": "PRUEBA SOCIAL REAL PENDIENTE\nValoración, nº de usuarios o testimonios reales"
+        }
+      ],
+      "density": "0.88",
+      "status": "warn"
+    },
+    {
+      "name": "13-paywall-locked",
+      "device": "iphone",
+      "theme": "light",
+      "variant": "A",
+      "template": "paywall/single-plan",
+      "issues": [],
+      "density": "0.76",
+      "status": "pass"
+    },
+    {
+      "name": "13-paywall-locked",
+      "device": "iphone",
+      "theme": "dark",
+      "variant": "A",
+      "template": "paywall/single-plan",
+      "issues": [],
+      "density": "0.76",
+      "status": "pass"
+    },
+    {
+      "name": "13-paywall-locked--B",
+      "device": "iphone",
+      "theme": "light",
+      "variant": "B",
+      "template": "paywall/single-plan",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "13-paywall-locked--B",
+      "device": "iphone",
+      "theme": "dark",
+      "variant": "B",
+      "template": "paywall/single-plan",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "01-welcome",
+      "device": "android",
+      "theme": "light",
+      "variant": "A",
+      "template": "onboarding/welcome",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "01-welcome",
+      "device": "android",
+      "theme": "dark",
+      "variant": "A",
+      "template": "onboarding/welcome",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "02-benefit",
+      "device": "android",
+      "theme": "light",
+      "variant": "A",
+      "template": "onboarding/benefit",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "02-benefit",
+      "device": "android",
+      "theme": "dark",
+      "variant": "A",
+      "template": "onboarding/benefit",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "03-personalization",
+      "device": "android",
+      "theme": "light",
+      "variant": "A",
+      "template": "onboarding/personalization",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "03-personalization",
+      "device": "android",
+      "theme": "dark",
+      "variant": "A",
+      "template": "onboarding/personalization",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "04-permissions",
+      "device": "android",
+      "theme": "light",
+      "variant": "A",
+      "template": "onboarding/permissions",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "04-permissions",
+      "device": "android",
+      "theme": "dark",
+      "variant": "A",
+      "template": "onboarding/permissions",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "05-bridge",
+      "device": "android",
+      "theme": "light",
+      "variant": "A",
+      "template": "onboarding/bridge",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "05-bridge",
+      "device": "android",
+      "theme": "dark",
+      "variant": "A",
+      "template": "onboarding/bridge",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "10-paywall-trial",
+      "device": "android",
+      "theme": "light",
+      "variant": "A",
+      "template": "paywall/trial-timeline",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "10-paywall-trial",
+      "device": "android",
+      "theme": "dark",
+      "variant": "A",
+      "template": "paywall/trial-timeline",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "10-paywall-trial--B",
+      "device": "android",
+      "theme": "light",
+      "variant": "B",
+      "template": "paywall/trial-timeline",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "10-paywall-trial--B",
+      "device": "android",
+      "theme": "dark",
+      "variant": "B",
+      "template": "paywall/trial-timeline",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "11-paywall-plans",
+      "device": "android",
+      "theme": "light",
+      "variant": "A",
+      "template": "paywall/side-by-side",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "11-paywall-plans",
+      "device": "android",
+      "theme": "dark",
+      "variant": "A",
+      "template": "paywall/side-by-side",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "11-paywall-plans--B",
+      "device": "android",
+      "theme": "light",
+      "variant": "B",
+      "template": "paywall/side-by-side",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "11-paywall-plans--B",
+      "device": "android",
+      "theme": "dark",
+      "variant": "B",
+      "template": "paywall/side-by-side",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "12-paywall-benefits",
+      "device": "android",
+      "theme": "light",
+      "variant": "A",
+      "template": "paywall/benefits-social",
+      "issues": [
+        {
+          "check": "placeholders",
+          "severity": "warn",
+          "message": "Placeholder block visible: social (needs real data)",
+          "selector": "div.ph",
+          "text": "PRUEBA SOCIAL REAL PENDIENTE\nValoración, nº de usuarios o testimonios reales"
+        }
+      ],
+      "density": "1.00",
+      "status": "warn"
+    },
+    {
+      "name": "12-paywall-benefits",
+      "device": "android",
+      "theme": "dark",
+      "variant": "A",
+      "template": "paywall/benefits-social",
+      "issues": [
+        {
+          "check": "placeholders",
+          "severity": "warn",
+          "message": "Placeholder block visible: social (needs real data)",
+          "selector": "div.ph",
+          "text": "PRUEBA SOCIAL REAL PENDIENTE\nValoración, nº de usuarios o testimonios reales"
+        }
+      ],
+      "density": "1.00",
+      "status": "warn"
+    },
+    {
+      "name": "12-paywall-benefits--B",
+      "device": "android",
+      "theme": "light",
+      "variant": "B",
+      "template": "paywall/benefits-social",
+      "issues": [
+        {
+          "check": "placeholders",
+          "severity": "warn",
+          "message": "Placeholder block visible: social (needs real data)",
+          "selector": "div.ph",
+          "text": "PRUEBA SOCIAL REAL PENDIENTE\nValoración, nº de usuarios o testimonios reales"
+        }
+      ],
+      "density": "1.00",
+      "status": "warn"
+    },
+    {
+      "name": "12-paywall-benefits--B",
+      "device": "android",
+      "theme": "dark",
+      "variant": "B",
+      "template": "paywall/benefits-social",
+      "issues": [
+        {
+          "check": "placeholders",
+          "severity": "warn",
+          "message": "Placeholder block visible: social (needs real data)",
+          "selector": "div.ph",
+          "text": "PRUEBA SOCIAL REAL PENDIENTE\nValoración, nº de usuarios o testimonios reales"
+        }
+      ],
+      "density": "1.00",
+      "status": "warn"
+    },
+    {
+      "name": "13-paywall-locked",
+      "device": "android",
+      "theme": "light",
+      "variant": "A",
+      "template": "paywall/single-plan",
+      "issues": [],
+      "density": "0.92",
+      "status": "pass"
+    },
+    {
+      "name": "13-paywall-locked",
+      "device": "android",
+      "theme": "dark",
+      "variant": "A",
+      "template": "paywall/single-plan",
+      "issues": [],
+      "density": "0.92",
+      "status": "pass"
+    },
+    {
+      "name": "13-paywall-locked--B",
+      "device": "android",
+      "theme": "light",
+      "variant": "B",
+      "template": "paywall/single-plan",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    },
+    {
+      "name": "13-paywall-locked--B",
+      "device": "android",
+      "theme": "dark",
+      "variant": "B",
+      "template": "paywall/single-plan",
+      "issues": [],
+      "density": "1.00",
+      "status": "pass"
+    }
+  ]
+}

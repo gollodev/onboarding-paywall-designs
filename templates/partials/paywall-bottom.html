@@ -1,0 +1,7 @@
+<div class="bottom">
+  {{#has_trial}}<p class="assure" data-fit="2"><span class="assure-ico">{{{icons.circle-check}}}</span><span>{{fine.no_payment_today}} {{fine.reminder}}</span></p>{{/has_trial}}
+  {{#urgency_real}}{{#s.urgency_text}}<p class="urgency" data-role="countdown">{{s.urgency_text}}</p>{{/s.urgency_text}}{{/urgency_real}}
+  <button class="btn" data-role="cta-primary">{{#s.cta}}{{s.cta}}{{/s.cta}}{{^s.cta}}{{fine.cta}}{{/s.cta}}</button>
+  <p class="fine" data-fit="5">{{#has_trial}}<span data-required="trial-terms">{{fine.trial_terms}}</span> {{/has_trial}}{{^has_trial}}<span>{{hl.name}}: {{hl.price}}{{hl.period_label}}.</span> {{/has_trial}}<span data-required="auto-renew">{{fine.auto_renew}}</span> <span data-required="cancel-info">{{fine.cancel}}</span></p>
+  <div class="links"><span class="link" data-required="terms">{{t.terms}}</span><span class="sep" aria-hidden="true">·</span><span class="link" data-required="privacy">{{t.privacy}}</span></div>
+</div>

@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Brotia",
+    "slug": "brotia",
+    "icon": "./assets/logo.svg",
+    "userInterfaceStyle": "automatic",
+    "ios": { "bundleIdentifier": "com.brotia.app" },
+    "android": { "package": "com.brotia.app" }
+  }
+}

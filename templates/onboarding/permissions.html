@@ -1,0 +1,18 @@
+{{> head}}
+{{> body-open}}
+{{> progress}}
+<main class="content center">
+  <div class="hero"><span class="blob" data-decor></span><span class="big-icon">{{{s.icon_svg}}}</span></div>
+  <h1 class="title center-text" data-fit="3">{{s.headline}}</h1>
+  <p class="subtitle center-text" data-required="permission-reason" data-fit="4">{{s.reason}}</p>
+  {{#s.preview_title}}<div class="notif" data-box>
+    {{> brand-mark}}
+    <div class="notif-body">
+      <div class="notif-head"><span>{{app.name}}</span><span>{{s.preview_time}}</span></div>
+      <span class="notif-title">{{s.preview_title}}</span>
+      <span class="notif-text" data-fit="2">{{s.preview_text}}</span>
+    </div>
+  </div>{{/s.preview_title}}
+</main>
+{{> onb-bottom}}
+{{> body-close}}

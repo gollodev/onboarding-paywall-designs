@@ -1,0 +1,11 @@
+{
+  "_comment": "Generic, unbranded phone frame drawn with Pillow (no third-party mockup assets). Ratios are relative to the screen width.",
+  "platform": "android",
+  "body_color": "#202124",
+  "bezel_ratio": 0.035,
+  "body_radius_ratio": 0.11,
+  "screen_radius_ratio": 0.085,
+  "side_buttons": true,
+  "device_height_ratio": 0.86,
+  "shadow": true
+}

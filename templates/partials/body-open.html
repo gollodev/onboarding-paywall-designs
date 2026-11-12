@@ -1,0 +1,8 @@
+<body class="{{device.platform}} theme-{{theme}}" data-kind="{{kind}}" data-template="{{screen_id}}" data-has-trial="{{has_trial}}" data-urgency-real="{{urgency_real}}">
+<div class="screen">
+<div class="statusbar" data-decor aria-hidden="true">
+  <span class="sb-time">9:41</span>
+  {{#device.is_ios}}<span class="island"></span>{{/device.is_ios}}
+  {{#device.is_android}}<span class="punch"></span>{{/device.is_android}}
+  <span class="sb-icons"><svg viewBox="0 0 18 12" width="18" height="12"><rect x="0" y="8" width="3" height="4" rx="1" fill="currentColor"/><rect x="5" y="5" width="3" height="7" rx="1" fill="currentColor"/><rect x="10" y="2.5" width="3" height="9.5" rx="1" fill="currentColor"/><rect x="15" y="0" width="3" height="12" rx="1" fill="currentColor"/></svg><svg viewBox="0 0 26 12" width="26" height="12"><rect x="0.5" y="0.5" width="22" height="11" rx="3.5" fill="none" stroke="currentColor" opacity=".45"/><rect x="2.5" y="2.5" width="16" height="7" rx="2" fill="currentColor"/><rect x="24" y="4" width="1.6" height="4" rx=".8" fill="currentColor" opacity=".45"/></svg></span>
+</div>

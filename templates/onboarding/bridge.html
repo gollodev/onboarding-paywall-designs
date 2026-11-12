@@ -1,0 +1,15 @@
+{{> head}}
+{{> body-open}}
+{{> progress}}
+<main class="content center">
+  {{#s.eyebrow}}<p class="eyebrow">{{s.eyebrow}}</p>{{/s.eyebrow}}
+  <h1 class="title" data-fit="3">{{s.headline}}</h1>
+  {{#s.subhead}}<p class="subtitle" data-fit="3">{{s.subhead}}</p>{{/s.subhead}}
+  <div class="card" data-box>
+    {{#s.card_title}}<p class="card-title">{{s.card_title}}</p>{{/s.card_title}}
+    <ul class="benefits">{{#s.items}}<li><span class="b-icon">{{{icon_svg}}}</span><span class="b-text"><strong>{{title}}</strong>{{#text}}<small>{{text}}</small>{{/text}}</span></li>{{/s.items}}</ul>
+  </div>
+  {{#s.note}}<p class="subtitle center-text" data-fit="2">{{s.note}}</p>{{/s.note}}
+</main>
+{{> onb-bottom}}
+{{> body-close}}

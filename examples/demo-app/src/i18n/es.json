@@ -1,0 +1,8 @@
+{
+  "home": { "title": "Mis plantas", "empty": "Añade tu primera planta y te diremos cuándo regarla." },
+  "identify": { "title": "Identificar planta", "hint": "Haz una foto de la hoja con buena luz." },
+  "plantdetail": { "title": "Cuidados", "water": "Riego cada {{days}} días" },
+  "reminders": { "title": "Recordatorios", "enable": "Activa los avisos para no olvidar ningún riego." },
+  "limit": { "reached": "Has llegado al límite de 3 plantas de la versión gratis." },
+  "pro": { "name": "Brotia Pro", "diagnose": "Diagnóstico de plagas con foto", "journal": "Diario de crecimiento" }
+}

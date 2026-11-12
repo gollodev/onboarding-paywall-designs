@@ -1,0 +1,8 @@
+<div class="plan-rows">
+  {{#plans}}<div class="plan-row {{#highlighted}}is-on{{/highlighted}}" data-box>
+    <span class="radio">{{#highlighted}}{{{icons.check}}}{{/highlighted}}</span>
+    <span class="pr-main"><span class="plan-name">{{name}}{{#trial_badge}} <span class="trial-chip">{{trial_badge}}</span>{{/trial_badge}}</span>{{#equivalent}}<span class="equiv" data-role="price-equivalent">{{equivalent}}</span>{{/equivalent}}{{^equivalent}}<span class="equiv">{{billed}}</span>{{/equivalent}}</span>
+    <span class="pr-price"><span class="price" data-required="price">{{price}}</span><span class="per" data-required="billing-period">{{period_label}}</span></span>
+    {{#badge}}<span class="badge" data-overhang>{{badge}}</span>{{/badge}}
+  </div>{{/plans}}
+</div>

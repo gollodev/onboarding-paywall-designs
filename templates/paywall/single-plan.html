@@ -1,0 +1,17 @@
+{{> head}}
+{{> body-open}}
+{{> paywall-top}}
+<main class="content center">
+  <div class="hero center-text">{{#s.icon_svg}}<span class="big-icon">{{{s.icon_svg}}}</span>{{/s.icon_svg}}{{^s.icon_svg}}{{> brand-mark}}{{/s.icon_svg}}</div>
+  {{#s.eyebrow}}<p class="eyebrow center-text">{{s.eyebrow}}</p>{{/s.eyebrow}}
+  <h1 class="title center-text" data-fit="3">{{s.headline}}</h1>
+  {{#s.subhead}}<p class="subtitle center-text" data-fit="2">{{s.subhead}}</p>{{/s.subhead}}
+  <ul class="bullets">{{#s.benefits}}<li>{{{icons.check}}}<span><strong>{{title}}</strong>{{#text}} — {{text}}{{/text}}</span></li>{{/s.benefits}}</ul>
+  <div class="single-price">
+    {{#hl.trial_badge}}<span class="chip">{{hl.trial_badge}}</span>{{/hl.trial_badge}}
+    <span class="plan-price"><span class="price" data-required="price">{{hl.price}}</span><span class="per" data-required="billing-period">{{hl.period_label}}</span></span>
+    {{#hl.equivalent}}<span class="equiv" data-role="price-equivalent">{{hl.equivalent}}</span>{{/hl.equivalent}}{{^hl.equivalent}}<span class="equiv">{{hl.billed}}</span>{{/hl.equivalent}}
+  </div>
+</main>
+{{> paywall-bottom}}
+{{> body-close}}

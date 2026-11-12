@@ -1,0 +1,8 @@
+/* Bundled OFL fonts (see assets/fonts/*-OFL.txt). Paths are relative to this file. */
+@font-face { font-family: 'Inter'; src: url('../assets/fonts/Inter-Variable.ttf') format('truetype'); font-weight: 100 900; font-style: normal; }
+@font-face { font-family: 'Manrope'; src: url('../assets/fonts/Manrope-Variable.ttf') format('truetype'); font-weight: 200 800; font-style: normal; }
+@font-face { font-family: 'Poppins'; src: url('../assets/fonts/Poppins-Regular.ttf') format('truetype'); font-weight: 400; }
+@font-face { font-family: 'Poppins'; src: url('../assets/fonts/Poppins-Medium.ttf') format('truetype'); font-weight: 500; }
+@font-face { font-family: 'Poppins'; src: url('../assets/fonts/Poppins-SemiBold.ttf') format('truetype'); font-weight: 600; }
+@font-face { font-family: 'Poppins'; src: url('../assets/fonts/Poppins-Bold.ttf') format('truetype'); font-weight: 700; }
+@font-face { font-family: 'Poppins'; src: url('../assets/fonts/Poppins-ExtraBold.ttf') format('truetype'); font-weight: 800; }

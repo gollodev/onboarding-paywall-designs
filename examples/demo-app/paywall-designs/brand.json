@@ -1,0 +1,230 @@
+{
+  "logo": "../assets/logo.svg",
+  "logo_candidates": [
+    {
+      "path": "assets/logo.svg",
+      "score": 5,
+      "size": 360
+    }
+  ],
+  "colors_named": [
+    {
+      "name": "primary",
+      "hex": "#2F9E44",
+      "dark": false,
+      "source": "src/theme/colors.ts:3"
+    },
+    {
+      "name": "accent",
+      "hex": "#F59F00",
+      "dark": false,
+      "source": "src/theme/colors.ts:4"
+    },
+    {
+      "name": "background",
+      "hex": "#FFFFFF",
+      "dark": false,
+      "source": "src/theme/colors.ts:5"
+    },
+    {
+      "name": "surface",
+      "hex": "#F3F7F2",
+      "dark": false,
+      "source": "src/theme/colors.ts:6"
+    },
+    {
+      "name": "text",
+      "hex": "#14201A",
+      "dark": false,
+      "source": "src/theme/colors.ts:7"
+    },
+    {
+      "name": "muted",
+      "hex": "#5C6B62",
+      "dark": false,
+      "source": "src/theme/colors.ts:8"
+    },
+    {
+      "name": "border",
+      "hex": "#DDE7DF",
+      "dark": false,
+      "source": "src/theme/colors.ts:9"
+    },
+    {
+      "name": "primary",
+      "hex": "#51CF66",
+      "dark": true,
+      "source": "src/theme/colors.ts:12"
+    },
+    {
+      "name": "accent",
+      "hex": "#FFC34D",
+      "dark": true,
+      "source": "src/theme/colors.ts:13"
+    },
+    {
+      "name": "background",
+      "hex": "#0E1511",
+      "dark": true,
+      "source": "src/theme/colors.ts:14"
+    },
+    {
+      "name": "surface",
+      "hex": "#18221C",
+      "dark": true,
+      "source": "src/theme/colors.ts:15"
+    },
+    {
+      "name": "text",
+      "hex": "#EEF5F0",
+      "dark": true,
+      "source": "src/theme/colors.ts:16"
+    },
+    {
+      "name": "muted",
+      "hex": "#9DB0A4",
+      "dark": true,
+      "source": "src/theme/colors.ts:17"
+    },
+    {
+      "name": "border",
+      "hex": "#2A3A30",
+      "dark": true,
+      "source": "src/theme/colors.ts:18"
+    }
+  ],
+  "colors_frequent": [
+    {
+      "hex": "#2F9E44",
+      "count": 2,
+      "source": "src/theme/colors.ts:3"
+    },
+    {
+      "hex": "#F59F00",
+      "count": 2,
+      "source": "src/theme/colors.ts:4"
+    },
+    {
+      "hex": "#FFFFFF",
+      "count": 2,
+      "source": "src/theme/colors.ts:5"
+    },
+    {
+      "hex": "#F3F7F2",
+      "count": 2,
+      "source": "src/theme/colors.ts:6"
+    },
+    {
+      "hex": "#14201A",
+      "count": 2,
+      "source": "src/theme/colors.ts:7"
+    },
+    {
+      "hex": "#5C6B62",
+      "count": 2,
+      "source": "src/theme/colors.ts:8"
+    },
+    {
+      "hex": "#DDE7DF",
+      "count": 2,
+      "source": "src/theme/colors.ts:9"
+    },
+    {
+      "hex": "#51CF66",
+      "count": 2,
+      "source": "src/theme/colors.ts:12"
+    },
+    {
+      "hex": "#FFC34D",
+      "count": 2,
+      "source": "src/theme/colors.ts:13"
+    },
+    {
+      "hex": "#0E1511",
+      "count": 2,
+      "source": "src/theme/colors.ts:14"
+    },
+    {
+      "hex": "#18221C",
+      "count": 2,
+      "source": "src/theme/colors.ts:15"
+    },
+    {
+      "hex": "#EEF5F0",
+      "count": 2,
+      "source": "src/theme/colors.ts:16"
+    },
+    {
+      "hex": "#9DB0A4",
+      "count": 2,
+      "source": "src/theme/colors.ts:17"
+    },
+    {
+      "hex": "#2A3A30",
+      "count": 2,
+      "source": "src/theme/colors.ts:18"
+    }
+  ],
+  "palette_suggestion": {
+    "light": {
+      "primary": "#2F9E44",
+      "accent": "#F59F00",
+      "bg": "#FFFFFF",
+      "surface": "#F3F7F2",
+      "text": "#14201A",
+      "muted": "#5C6B62"
+    },
+    "dark": {
+      "primary": "#51CF66",
+      "accent": "#FFC34D",
+      "bg": "#0E1511",
+      "surface": "#18221C",
+      "text": "#EEF5F0",
+      "muted": "#9DB0A4"
+    }
+  },
+  "palette_sources": {
+    "light": {
+      "primary": "src/theme/colors.ts:3",
+      "accent": "src/theme/colors.ts:4",
+      "bg": "src/theme/colors.ts:5",
+      "surface": "src/theme/colors.ts:6",
+      "text": "src/theme/colors.ts:7",
+      "muted": "src/theme/colors.ts:8"
+    },
+    "dark": {
+      "primary": "src/theme/colors.ts:12",
+      "accent": "src/theme/colors.ts:13",
+      "bg": "src/theme/colors.ts:14",
+      "surface": "src/theme/colors.ts:15",
+      "text": "src/theme/colors.ts:16",
+      "muted": "src/theme/colors.ts:17"
+    }
+  },
+  "fonts_used": [
+    {
+      "family": "Nunito",
+      "count": 5,
+      "source": "package.json:11"
+    }
+  ],
+  "font_files": [],
+  "font_heading": "Nunito",
+  "font_body": "Nunito",
+  "font_heading_bundled": "Poppins",
+  "font_body_bundled": "Poppins",
+  "font_notes": [
+    "Font 'Nunito' is not bundled; using closest bundled font 'Poppins'."
+  ],
+  "dark_mode_evidence": [
+    "app.json:6 (userInterfaceStyle)",
+    "src/navigation/RootNavigator.tsx:2 (useColorScheme)",
+    "src/theme/colors.ts:11 (dark:)"
+  ],
+  "icon_style": [
+    {
+      "library": "Lucide (outline, 2px stroke)",
+      "source": "package.json:14"
+    }
+  ]
+}

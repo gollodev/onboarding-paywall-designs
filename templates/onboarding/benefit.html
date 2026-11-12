@@ -1,0 +1,15 @@
+{{> head}}
+{{> body-open}}
+<div class="dots" aria-hidden="true">{{#s.dots}}<span class="{{#on}}on{{/on}} {{#current}}current{{/current}}"></span>{{/s.dots}}</div>
+<main class="content center">
+  <div class="hero">
+    {{#s.image_uri}}<div class="shot"><img src="{{s.image_uri}}" alt=""></div>{{/s.image_uri}}
+    {{^s.image_uri}}<span class="blob" data-decor></span><span class="big-icon">{{{s.icon_svg}}}</span>{{/s.image_uri}}
+  </div>
+  {{#s.eyebrow}}<p class="eyebrow">{{s.eyebrow}}</p>{{/s.eyebrow}}
+  <h1 class="title" data-fit="3">{{s.headline}}</h1>
+  {{#s.subhead}}<p class="subtitle" data-fit="3">{{s.subhead}}</p>{{/s.subhead}}
+  {{#s.bullets.0}}<ul class="bullets">{{#s.bullets}}<li>{{{icons.check}}}<span>{{.}}</span></li>{{/s.bullets}}</ul>{{/s.bullets.0}}
+</main>
+{{> onb-bottom}}
+{{> body-close}}

@@ -1,0 +1,21 @@
+{
+  "name": "brotia",
+  "displayName": "Brotia",
+  "version": "1.4.0",
+  "description": "Cuida tus plantas de interior con recordatorios de riego e identificación por foto.",
+  "main": "index.js",
+  "dependencies": {
+    "expo": "~52.0.0",
+    "expo-notifications": "~0.29.0",
+    "expo-camera": "~16.0.0",
+    "@expo-google-fonts/nunito": "^0.2.3",
+    "@react-navigation/native": "^7.0.0",
+    "@react-navigation/native-stack": "^7.0.0",
+    "lucide-react-native": "^0.460.0",
+    "react": "18.3.1",
+    "react-native": "0.76.3",
+    "react-native-purchases": "^8.2.0",
+    "i18next": "^23.16.0"
+  },
+  "devDependencies": { "jest": "^29.7.0" }
+}

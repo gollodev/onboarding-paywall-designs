@@ -1,0 +1,12 @@
+{{> head}}
+{{> body-open}}
+{{> paywall-top}}
+<main class="content">
+  {{#s.eyebrow}}<p class="eyebrow">{{s.eyebrow}}</p>{{/s.eyebrow}}
+  <h1 class="title" data-fit="3">{{s.headline}}</h1>
+  {{#s.subhead}}<p class="subtitle" data-fit="2">{{s.subhead}}</p>{{/s.subhead}}
+  {{#fine.timeline.0}}<ol class="timeline">{{#fine.timeline}}<li><span class="tl-dot">{{{icon_svg}}}</span><span class="tl-body"><strong>{{label}}</strong><span>{{text}}</span></span></li>{{/fine.timeline}}</ol>{{/fine.timeline.0}}
+  {{> plan-rows}}
+</main>
+{{> paywall-bottom}}
+{{> body-close}}

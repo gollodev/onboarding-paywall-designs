@@ -1,0 +1,21 @@
+{{> head}}
+{{> body-open}}
+{{> paywall-top}}
+<main class="content">
+  {{#s.eyebrow}}<p class="eyebrow">{{s.eyebrow}}</p>{{/s.eyebrow}}
+  <h1 class="title" data-fit="3">{{s.headline}}</h1>
+  {{#s.subhead}}<p class="subtitle" data-fit="2">{{s.subhead}}</p>{{/s.subhead}}
+  <ul class="benefits compact">{{#s.benefits}}<li><span class="b-icon">{{{icon_svg}}}</span><span class="b-text"><strong>{{title}}</strong>{{#text}}<small>{{text}}</small>{{/text}}</span></li>{{/s.benefits}}</ul>
+  <div class="plans cols-{{plans_count}}">
+    {{#plans}}<div class="plan {{#highlighted}}is-on{{/highlighted}}" data-box>
+      {{#badge}}<span class="badge" data-overhang>{{badge}}</span>{{/badge}}
+      <span class="plan-name">{{name}}</span>
+      <span class="plan-price"><span class="price" data-required="price">{{price}}</span><span class="per" data-required="billing-period">{{period_label}}</span></span>
+      {{#equivalent}}<span class="equiv" data-role="price-equivalent">{{equivalent}}</span>{{/equivalent}}{{^equivalent}}<span class="equiv">{{billed}}</span>{{/equivalent}}
+      {{#trial_badge}}<span class="trial-chip">{{trial_badge}}</span>{{/trial_badge}}
+      <span class="radio">{{#highlighted}}{{{icons.check}}}{{/highlighted}}</span>
+    </div>{{/plans}}
+  </div>
+</main>
+{{> paywall-bottom}}
+{{> body-close}}

@@ -1,0 +1,17 @@
+{{> head}}
+{{> body-open}}
+{{> progress}}
+<main class="content">
+  {{#s.step_label}}<p class="step-label">{{s.step_label}}</p>{{/s.step_label}}
+  <h1 class="title" data-fit="3">{{s.headline}}</h1>
+  {{#s.subhead}}<p class="subtitle" data-fit="2">{{s.subhead}}</p>{{/s.subhead}}
+  <div class="options" role="radiogroup">
+    {{#s.options}}<div class="option {{#selected}}is-on{{/selected}}" data-box role="radio">
+      {{#icon_svg}}<span class="o-icon">{{{icon_svg}}}</span>{{/icon_svg}}
+      <span class="o-label" data-fit="2">{{label}}</span>
+      <span class="radio">{{#selected}}{{{icons.check}}}{{/selected}}</span>
+    </div>{{/s.options}}
+  </div>
+</main>
+{{> onb-bottom}}
+{{> body-close}}

@@ -1,0 +1,314 @@
+{
+  "project": "..",
+  "app_name": {
+    "value": "Brotia",
+    "source": "app.json:3",
+    "priority": 1
+  },
+  "app_name_candidates": [
+    {
+      "value": "Brotia",
+      "source": "app.json:3",
+      "priority": 1
+    },
+    {
+      "value": "Brotia",
+      "source": "package.json:3",
+      "priority": 2
+    },
+    {
+      "value": "Brotia",
+      "source": "README.md:1",
+      "priority": 3
+    },
+    {
+      "value": "brotia",
+      "source": "package.json:2",
+      "priority": 6
+    }
+  ],
+  "stack": [
+    "Expo / React Native"
+  ],
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "problem": {
+    "value": "Brotia ayuda a personas con poca experiencia a mantener vivas sus plantas de interior: identifica cada planta con una foto, crea un calendario de riego a su medida y avisa cuando toca regar.",
+    "source": "README.md:3"
+  },
+  "features_readme": [
+    {
+      "value": "Identificación de plantas con una foto",
+      "source": "README.md:7"
+    },
+    {
+      "value": "Recordatorios de riego por planta",
+      "source": "README.md:8"
+    },
+    {
+      "value": "Guías de cuidado (luz, agua, temperatura)",
+      "source": "README.md:9"
+    },
+    {
+      "value": "Hasta 3 plantas en la versión gratis",
+      "source": "README.md:10"
+    },
+    {
+      "value": "Brotia Pro: plantas ilimitadas",
+      "source": "README.md:11"
+    },
+    {
+      "value": "Brotia Pro: diagnóstico de plagas y enfermedades con foto",
+      "source": "README.md:12"
+    },
+    {
+      "value": "Brotia Pro: diario de crecimiento con fotos",
+      "source": "README.md:13"
+    }
+  ],
+  "screens": [
+    {
+      "value": "RemindersScreen",
+      "file": "RemindersScreen",
+      "source": "src/screens/RemindersScreen.tsx:1"
+    },
+    {
+      "value": "PlantDetailScreen",
+      "file": "PlantDetailScreen",
+      "source": "src/screens/PlantDetailScreen.tsx:1"
+    },
+    {
+      "value": "IdentifyScreen",
+      "file": "IdentifyScreen",
+      "source": "src/screens/IdentifyScreen.tsx:1"
+    },
+    {
+      "value": "JournalScreen",
+      "file": "JournalScreen",
+      "source": "src/screens/JournalScreen.tsx:1"
+    },
+    {
+      "value": "HomeScreen",
+      "file": "HomeScreen",
+      "source": "src/screens/HomeScreen.tsx:1"
+    },
+    {
+      "value": "DiagnoseScreen",
+      "file": "DiagnoseScreen",
+      "source": "src/screens/DiagnoseScreen.tsx:1"
+    }
+  ],
+  "routes": [
+    {
+      "value": "Home",
+      "source": "src/navigation/RootNavigator.tsx:16"
+    },
+    {
+      "value": "Identify",
+      "source": "src/navigation/RootNavigator.tsx:17"
+    },
+    {
+      "value": "PlantDetail",
+      "source": "src/navigation/RootNavigator.tsx:18"
+    },
+    {
+      "value": "Reminders",
+      "source": "src/navigation/RootNavigator.tsx:19"
+    },
+    {
+      "value": "Diagnose",
+      "source": "src/navigation/RootNavigator.tsx:20"
+    },
+    {
+      "value": "Journal",
+      "source": "src/navigation/RootNavigator.tsx:21"
+    }
+  ],
+  "tests": [
+    {
+      "value": "premium limits",
+      "source": "__tests__/premium.test.ts:3"
+    },
+    {
+      "value": "limits free users to 3 plants",
+      "source": "__tests__/premium.test.ts:4"
+    },
+    {
+      "value": "allows unlimited plants with pro entitlement",
+      "source": "__tests__/premium.test.ts:7"
+    }
+  ],
+  "premium_signals": [
+    {
+      "value": "import { canAddPlant, FREE_PLANT_LIMIT } from '../src/premium/entitlements';",
+      "source": "__tests__/premium.test.ts:1"
+    },
+    {
+      "value": "describe('premium limits', () => {",
+      "source": "__tests__/premium.test.ts:3"
+    },
+    {
+      "value": "it('allows unlimited plants with pro entitlement', () => {",
+      "source": "__tests__/premium.test.ts:7"
+    },
+    {
+      "value": "import { useEntitlement } from '../premium/entitlements';",
+      "source": "src/screens/JournalScreen.tsx:2"
+    },
+    {
+      "value": "// Premium: growth journal with photos.",
+      "source": "src/screens/JournalScreen.tsx:4"
+    },
+    {
+      "value": "const isPro = useEntitlement();",
+      "source": "src/screens/JournalScreen.tsx:6"
+    },
+    {
+      "value": "if (!isPro) navigation.navigate('Paywall', { source: 'journal_locked' });",
+      "source": "src/screens/JournalScreen.tsx:7"
+    },
+    {
+      "value": "import { useEntitlement } from '../premium/entitlements';",
+      "source": "src/screens/DiagnoseScreen.tsx:2"
+    },
+    {
+      "value": "// Premium: photo diagnosis of pests and diseases.",
+      "source": "src/screens/DiagnoseScreen.tsx:4"
+    },
+    {
+      "value": "const isPro = useEntitlement();",
+      "source": "src/screens/DiagnoseScreen.tsx:6"
+    },
+    {
+      "value": "if (!isPro) {",
+      "source": "src/screens/DiagnoseScreen.tsx:7"
+    },
+    {
+      "value": "navigation.navigate('Paywall', { source: 'diagnose_locked' });",
+      "source": "src/screens/DiagnoseScreen.tsx:8"
+    },
+    {
+      "value": "const [isPro, setIsPro] = useState(false);",
+      "source": "src/premium/entitlements.ts:9"
+    },
+    {
+      "value": "return isPro;",
+      "source": "src/premium/entitlements.ts:13"
+    },
+    {
+      "value": "export function canAddPlant(count: number, isPro: boolean) {",
+      "source": "src/premium/entitlements.ts:16"
+    },
+    {
+      "value": "return isPro || count < FREE_PLANT_LIMIT;",
+      "source": "src/premium/entitlements.ts:17"
+    }
+  ],
+  "payment_sdks": [
+    {
+      "value": "RevenueCat",
+      "source": "README.md:17"
+    }
+  ],
+  "products": [
+    {
+      "id": "brotia.pro.monthly",
+      "price": null,
+      "source": "src/premium/products.ts:3"
+    },
+    {
+      "id": "brotia.pro.annual",
+      "price": null,
+      "source": "src/premium/products.ts:4"
+    }
+  ],
+  "prices_found": [],
+  "languages": [
+    {
+      "value": "en",
+      "source": "src/i18n/en.json:1"
+    },
+    {
+      "value": "es",
+      "source": "src/i18n/es.json:1"
+    }
+  ],
+  "strings_sample": [
+    {
+      "key": "home.title",
+      "value": "My plants",
+      "source": "src/i18n/en.json:1"
+    },
+    {
+      "key": "home.empty",
+      "value": "Add your first plant and we'll tell you when to water it.",
+      "source": "src/i18n/en.json:1"
+    },
+    {
+      "key": "identify.title",
+      "value": "Identify plant",
+      "source": "src/i18n/en.json:1"
+    },
+    {
+      "key": "identify.hint",
+      "value": "Take a photo of a leaf in good light.",
+      "source": "src/i18n/en.json:1"
+    },
+    {
+      "key": "plantdetail.title",
+      "value": "Care",
+      "source": "src/i18n/en.json:1"
+    },
+    {
+      "key": "plantdetail.water",
+      "value": "Water every {{days}} days",
+      "source": "src/i18n/en.json:1"
+    },
+    {
+      "key": "reminders.title",
+      "value": "Reminders",
+      "source": "src/i18n/en.json:1"
+    },
+    {
+      "key": "reminders.enable",
+      "value": "Turn on alerts so you never miss a watering.",
+      "source": "src/i18n/en.json:1"
+    },
+    {
+      "key": "limit.reached",
+      "value": "You've reached the 3-plant limit of the free version.",
+      "source": "src/i18n/en.json:1"
+    },
+    {
+      "key": "pro.name",
+      "value": "Brotia Pro",
+      "source": "src/i18n/en.json:1"
+    },
+    {
+      "key": "pro.diagnose",
+      "value": "Photo pest diagnosis",
+      "source": "src/i18n/en.json:1"
+    },
+    {
+      "key": "pro.journal",
+      "value": "Growth journal",
+      "source": "src/i18n/en.json:1"
+    }
+  ],
+  "store_hints": [
+    {
+      "value": "iOS bundle id com.brotia.app",
+      "source": "app.json:7"
+    },
+    {
+      "value": "Android package com.brotia.app",
+      "source": "app.json:8"
+    },
+    {
+      "value": "userInterfaceStyle=automatic",
+      "source": "app.json:6"
+    }
+  ]
+}

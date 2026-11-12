@@ -1,0 +1,8 @@
+{
+  "home": { "title": "My plants", "empty": "Add your first plant and we'll tell you when to water it." },
+  "identify": { "title": "Identify plant", "hint": "Take a photo of a leaf in good light." },
+  "plantdetail": { "title": "Care", "water": "Water every {{days}} days" },
+  "reminders": { "title": "Reminders", "enable": "Turn on alerts so you never miss a watering." },
+  "limit": { "reached": "You've reached the 3-plant limit of the free version." },
+  "pro": { "name": "Brotia Pro", "diagnose": "Photo pest diagnosis", "journal": "Growth journal" }
+}
